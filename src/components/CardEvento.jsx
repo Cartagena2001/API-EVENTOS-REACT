@@ -11,7 +11,6 @@ const CardEvento = ({ evento }) => {
             alt="Sunset in the mountains"
           />
         ) : null}
-        />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{evento.name.text}</div>
           <p className="text-gray-700 text-base">
